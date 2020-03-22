@@ -1,0 +1,25 @@
+{
+  "name": "COVID-19.mos",
+  "description": "Количество зараженных  COVID-19 в Москве",
+  "version": "1.0",
+  "icons": {
+       "16": "16x16.png",
+       "32": "32x32.png",
+       "48": "48x48.png",
+       "128": "128x128.png"
+   },
+  "background": {
+     "scripts": ["jq.js","back.js","getrespone.js"],
+     "persistent": false
+   },
+  "permissions": ["*://strangebird.ru/*"],
+  "browser_action": {
+      
+      "default_popup": "popup.html",
+      "default_icon": "48x48.png"
+  },
+   "web_accessible_resources": [
+    "48x48.png"
+  ],
+  "manifest_version": 2
+}

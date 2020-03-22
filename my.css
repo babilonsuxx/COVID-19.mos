@@ -1,0 +1,21 @@
+    body {
+ 		 min-height: 260px;
+    	min-width: 240px;
+    	max-width: 240px;
+      color: #424854 !important;
+    }
+    
+
+   .motilyator
+   {
+    width: 128px; 
+    animation-name: rotation; 
+    animation-duration: 10s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
+   }
+   @keyframes rotation { 
+      0% {transform:rotate(0deg);width: 128px; } 
+      50% {transform:rotate(180deg);width: 60px; } 
+      100% {transform:rotate(360deg);width: 128px; } 
+  }
